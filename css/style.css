@@ -340,6 +340,7 @@ a{
 	-ms-transform-style:none ;
 	border-radius: 50%;
 	justify-self: center;
+	z-index:-1000;
 }
 
 
