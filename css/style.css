@@ -68,6 +68,10 @@ a{
 	opacity: 0.4;
 	animation:gradient 14s infinite linear ;
 }
+main{
+overflow-x: hidden;
+}
+
 @keyframes gradient{
 	0%{
 		background-position: 0 0;
