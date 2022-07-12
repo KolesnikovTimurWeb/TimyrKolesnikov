@@ -578,7 +578,7 @@ overflow-x: hidden;
 
 .portfolio{
 	position: relative;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 .portfolio__grid{
 	display: grid;
