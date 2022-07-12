@@ -190,13 +190,13 @@
 		<section id="contact" class="section contact">
 			<div class="section-title">Contact</div>
 			<div class="container contact__container">
-				<form action="mail.php" method="post" enctype="multipart/form-data" class="contact__form">
-					<input type="hidden" name="form_subject" value="Тема письма">
-					<input type="text" name="name" placeholder="Your name">
-					<input type="email" data-validate-field="email" name="email" placeholder="Your email">
-					<textarea placeholder="Some text"></textarea>
+				<form action="https://formspree.io/f/mvoljdey" method="POST" id="form" class="contact__form">
+
+					<input type="text" id="from_name" name="name" placeholder="Your name">
+					<input type="email" id="email_id" name="email" placeholder="Your email">
+					<textarea name="sms" id="text" placeholder="Some text"></textarea>
 					<div class="contact__buttons">
-						<button type="submit" class="button button__contact">Submit</button>
+						<button type="message" onclick="SendEmail()" class="button button__contact">Submit</button>
 					</div>
 				</form>
 			</div>
