@@ -699,7 +699,7 @@ overflow-x: hidden;
 	transform: rotate(-7.86deg);
 	z-index: -1000;
 	animation: cube-left 30s infinite;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 /* CONTACT */
